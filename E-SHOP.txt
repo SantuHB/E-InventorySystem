@@ -1,0 +1,103 @@
+
+
+	Customer
+		HomePage 
+			Search page
+				show Product + Image
+		Login	Page	+ HyperLink Sign-Up
+			After login 
+			
+				Product Detail Page 
+				Purchase Product 
+					Add to Cart + Remove from Cart
+				Calculate Bill Amount
+				ORDER_ID 
+					====>ORDER_DETAILS
+			Sign-Up
+
+	Admin
+			Login Page 
+		ADD PRODUCT
+		DELETE 
+		UPDATE 
+	
+	HomePage
+		HEADER
+
+		Search Bar				Cart Image
+
+			Menu - 4 Product -Sub Category 
+
+		Slide 
+			Banner
+
+		CONTENT
+
+	FOOTER
+
+		ABOUT 	CONTACT-US ............
+
+	
+	LAYOUT
+		HEADER
+
+			CONTENT
+
+		FOOTER
+	
+	DB 
+		TABLES
+			----> PRIMARY KEY && FOREIGN KEY 
+
+		
+	CODE
+
+		MVC(RAZOR VIEW +HTML HELPERS) CORE  =====> EF CORE  =====>
+
+		REPOSITORY PATTERN + DI
+
+		CONTROLLER 
+
+			PRODUCT_CTRL
+			ORDER_CTRL
+			CART_CTRL
+			CUSTOMER_CTRL
+			ADMIN_CTRL
+			LOGIN_CTRL
+			
+		NAVIGATION 
+
+	3 PEOPLE 
+
+		
+	
+
+
+		
+
+
+		
+
+
+
+
+		
+
+
+
+ 
+			  
+			  
+		
+
+
+
+
+	
+		
+
+
+
+
+
+	
