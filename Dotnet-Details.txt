@@ -1,0 +1,2156 @@
+	.NET
+
+	Microsoft technology 
+
+		Desktop  +   Web  + Distributed 
+
+	Programming languages 
+
+		C# ,  VB.NET , J# , VC++ ....
+
+	C# ,  VB.NET
+			====> WEB APPLICATIONS 
+
+	1. 
+		.NET FRAMEWORK SDK(SOFT DEV KIT)
+		Soft Development Kit which must be installed to develop 
+		any .net applications using .Net supported languages(C# ,VB.NET)		
+
+		WINDOWS 						
+
+	2. 
+		.NET CORE SDK
+
+		CROSS PLATFORM(WINDOWS,LINUX ..)
+
+	3. 
+		.NET SDK 
+
+	DIFF VERSION .NET FW 
+
+	1.0 	1.1	2.0	3.0	3.5	4.0 	4.7  4.7.2 
+
+	VISUAL STUDIO 	====> 2003 2005 2007 2008	2010 ....2022
+
+	NEW FEATURES 
+
+	MULTIPLE PROGRAMMING LANGUAGES
+
+	C#	VB.NET J#  f#
+
+	C#		OR	VB.NET (VISUAL BASIC .NET)
+
+		===> WEB 
+
+	CLR(COMMON LANGUAGE RUNTIME)
+	============================
+	
+	Execution Engine which executes any .net applications
+	written using .net supported lang.
+	
+	.Net framework class library 
+	============================
+		provides set of tools and features required to develop
+		any .net applications 
+
+	a. NameSpaces
+	   ----------
+		Library File 
+		Logical grouping of related Classes + Methods + Interfaces
+
+		using NameSpaceName; 	
+
+	b. Assembly
+	   ---------
+		Deployment unit of execution
+
+		.exe or .dll (Dynamic Link library)
+
+	Private assembly
+	public or shared assembly 
+
+	DLL
+	---
+		Library File ====> Used dynamically across applications or projects.
+
+		Class  +  Methods (Functionalities)
+
+	Customer Mgt System 			Employee Mgt System
+
+	5 methods 				5 methods 
+
+
+	Library File (DLL)
+
+		Common.Dll ---Use CMS + EMS 
+
+	MSIL or CIL(common intermediate language) 
+		It's set of instructions which can understood by underlying 
+
+		hardware or platform 
+
+	Compilation Stage
+
+		C# (Program1.cs)	Vb.Net (Program1.vb)
+	
+		C# Compiler		VB Compiler 
+
+		CIL 			CIL	
+	
+	Runtime Environment 			
+
+		CLR 
+		Components 
+		
+		a. JIT ---CIL to .EXE 
+		b. Thread Support
+		
+		c. Garbage Collector 
+		   -----------------
+			Automatic memory management 
+			
+		d. Exception Handler 
+	
+	CTS (Common Type System or Specefication)
+	
+		Defines common set of data types used across 
+		.net supported language 
+
+		Uniform size 
+
+	C# 	or 	VB.NET 
+	
+	Int(4)	 	int(4)
+	float(4)	single (4)
+
+	char	char 
+
+	Language Inter-operability
+	==========================
+			
+		Code written in one language can be used in code written 
+		other language 	
+
+	DLL 
+		Does not have main method 
+
+	Common.DLL 	----Library Project 
+		
+		C# 	---- 5 methods 
+
+	Emp System  -App
+
+		Use 	---Common.DLL 
+
+	VB.NET 
+		Call C# methods with VB.NET Syntax 
+		
+	CLS (Common Language Specification)
+	
+		It defines set of rules followed to write any .net program
+		Syntax 
+		
+	
+	PROGRAMMING EXECUTION
+
+	COMPILATION ENV
+
+	PROGRAM1.CS (C#)		PROGRAM1.VB (VB.NET)
+	
+			=====> COMPILER
+	C# COMPILER			VB.NET COMPILER
+
+			======>MSIL (MICROSOFT INTERMEDIATE  LANGUAGE)
+
+	MSIL				MSIL
+
+	SET OF INSTRUCTIONS WHICH CAN UNDERSTOOD BY UNDERLYING PLATFORM
+
+	RUN TIME ENV
+
+		====> 
+		CLR(COMMON LANGUAGE RUNTIME)
+		EXECUTES .NET PROGRAMS WRITTEN USING .NET SUPPORTED LANGUAGE
+
+	.EXE 
+
+	CLR 
+	
+	JIT (JUST IN TIME)
+
+	CLASS LOADER
+	THREAD SUPPORT
+	GC(GARBAGE COLLECTOR)
+	
+
+	.NET FRAMEWORK
+
+	2 COMPONENTS
+
+	1. .NET FW BCL(BASE CLASS LIBRARY) OR FCL(FRAMEWORK CLASS LIBRARY)
+
+		PROVIDES SET OF FUNCTIONALITIES NEEDED TO DEVELOP ANY .NET APPLICATION
+
+	NAMESPACE
+	=========
+
+	STANDARD LIBARY OR PACKAGES 
+
+	INCLUDE LIBRARY_FILENAME
+
+	USING NAMESPACENAME;
+
+	GROUPING OF RELATED CLASSES + METHODS + INTERFACES 
+
+	CTS (COMMON TYPE SYSTEM OR SPECIFICATION)
+
+	IT DEFINES COMMON SET OF DATA TYPES USED BY .NET SUPPORTED LANG	
+
+	CLS (COMMON LANGUAGE SPECIFICATION)
+
+	DEFINES SET OF RULES FOLLOWED TO WORK WITH ANY .NET SUPPORTED LANG
+
+	ASSEMBLY
+	--------
+	EXECUTABLE UNIT OR DEPLOYMENTAL UNIT OF EXECUTION
+
+	.EXE 		OR		
+	.DLL(DYNAMIC LINK LIBRARY)
+
+	REUSABLE CODE 
+
+	LIBRARY FILE ====> SOURCE CODE (CLASSES + METHODS) WHICH CAN USED DYNAMICALLY
+
+	ACROSS DIFFERENT APPLICATIONS(PROJECT)
+
+	EMS(EMP MGT SYSTEM)		LMS(LEAVE MGT SYSTEM)
+
+	10 METHODS ====> DLL FILE (10 METHODS)  ====> PROJECT.DLL
+
+	PROJECT.DLL			PROJECT.DLL
+
+	2. CLR 
+
+	LANGUAGE INTEROPERABILITY
+
+	PROGRAMS WRITTEN USING ONE LANGUAGE CAN COMMUNICATE WITH OTHER LANGUAGE
+
+	10 METHODS ====> DLL FILE (10 METHODS)  ====> PROJECT.DLL
+
+	PROJECT.DLL	=====> C# 
+
+	EMS (C#)
+
+	LMS (VB.NET)	====> PROJECT.DLL	=====> C# 
+
+	PROVIDES COMMON SET OF DATA TYPES ACROSS .NET SUPPORTED LANG WITH UNIFORM SIZE 
+
+	MANAGED CODE
+
+	SOURCE CODE WRITTEN USING .NET FW SUPPORTED LANGUAGE
+
+	UNMANAGED CODE 
+
+	SOURCE CODE WRITTEN NOT UNDER .NET FW 
+
+
+	DOUBLE 	====> 8 BYTES
+
+	INT 	====> 4 BYTES
+
+	DOUBLE CONVERT TO INT 
+
+	EXPLICPIT TYPE CONVERSION
+
+	PRIMITIVE DATA TYPES 
+
+		INT CHAR FLOAT DOUBLE BOOL LONG SHORT DECIMAL (16)
+
+	OBJECT
+
+
+	DATABASE 
+
+	TABLE EMPLOYEE
+
+	EMPID NAME DESIGNATION SALARY 			===> COLUMN NAMES
+
+	INT   STRING STRING    MONEY 
+
+	
+
+	EMPLOYEE CLASS
+
+	VARIABLES ====> 1 INT + 2 STRING + 1 DOUBLE  ---VALUE TYPES
+
+	EMP OBJECT ====> 1 EMP DETAILS 		     --- REFERENCE TYPE
+						     --- BOXING
+
+	EMPID ====> EMP1 OBJ ====> IMP CONVERSION
+
+	RETRIVE PARTICULAR EMP DETAILS
+
+	EMP OBJECT
+
+	EMP.EMPID=C.R();
+
+	1 EMP OBJECT 
+
+	EXPLICIT CONVERSION 
+
+	RETRIEVE PARTICULAR EMPID OR EMPSALARY ....
+
+	EMPOBJECT (REFERNCE TYPE) =====> EMPID (VALUE TYPE) ====> UNBOXING 
+
+	EMPLOYEE EMP=NEW EMPLOYEE();
+
+	INT ID =(INT)EMP.EMPID;	=====> 
+
+
+	
+	MULTIPLE 
+
+	BC1		BC2
+
+		DC1
+
+	MULTI LEVEL
+
+	BC1
+
+	DC1
+
+	DC2
+
+	SINGLE 
+
+	BC
+
+	DC	
+
+	POLYMORPHISM
+
+	COMPILE TIME 
+
+	RUN TIME 
+
+	ENCAPSULATION			VS 	ABSTRACTION
+
+	SQL
+
+	DDL DML	DCL TCL
+	
+	PL/SQL
+
+	C#	====> OBJECT ORIENTED PROGRAMMING LANG
+
+	JAVA C++ 
+
+	CASE SENSITIVE	
+
+	SYNTAX
+
+	USING NAMESPACENAME;
+
+	NAMESPACE NAMESPACENAME			====> PROJECT NAME
+
+	{
+
+	CLASS CLASS_NAME
+	
+		{
+			VARIABLES //
+			METHODS //
+
+			PUBLIC STATIC VOID MAIN()
+			{
+
+			}
+		}
+
+	
+	}
+	
+	SYNTAX TO CREATE OBJECT
+
+	EMPLOYEE
+
+	METHOD ====> GET_DETAILS()
+
+	CLASSNAME OBJECTNAME=NEW CLASSNAME();
+
+		EMPLOYEE EMP=NEW EMPLOYEE();
+
+	CALLING METHOD 
+		INSTANCE METHOD
+		OBJECTNAME.METHODNAME();
+
+		EMP.GET_DETAILS();
+	
+		STATIC METHOD 
+
+		CLASSNAME.METHODNAME()
+
+	DATA TYPES
+
+	2 GROUPS
+
+	1. VALUE TYPES 
+
+		EXAMPLE : PRIMITIVE DATA TYPES ----INT FLOAT CHAR DOUBLE DECIMAL BOOL 
+						   STRUCT ENUM
+	STORED IN STACK MEMORY LOCATION
+	HAVE DIFFERENT SIZE ----DIFFERENT DEFAULT VALUE 
+
+	INT COUNT;
+	BOOL IS_CHECK; ===> 
+	CHAR CHECK;	
+	
+	
+	
+
+	2. REFERENCE TYPES
+
+		EXAMPLE : CLASS , OBJECT , ARRAY , INETERFACE ,ABSTRACT CLASS
+
+			  STRING ,DELEGATE ,EVENT
+
+	STORED IN HEAP MEMORY LOCATION 
+
+	SAME DEFAULT SIZE 	====> NULL
+
+	NO PREDEFINED SIZE 
+
+	VARIABLES
+
+	LOCAL 
+
+	CLASS OR INSTANCE 
+
+	STATIC	
+
+	NAMING CONVENTIONS OR CODING STANDARDS
+
+	CLASS 
+
+		PascalCase 
+
+	Employee	EmployeeDetails	
+
+
+	Method 
+
+		PascalCase
+
+	GetEmployeeDetails()
+
+	Variables
+
+	Class Variables ===> Public 
+
+	PascalCase 
+
+	Private 
+
+	camelCase 
+
+	employeeName
+
+	Method Paramters	====>camelCase
+
+	GetEmployeeDetails(int empId,string name,string workLocation)
+
+	Interface
+
+	IShopDetails
+
+	Console.WriteLine()	====>O/P STATEMENT
+
+	Console.ReadLine()	====>I/P STATEMENT
+
+	
+	Customer 
+
+	CustomerID
+
+	Name
+
+	Payment
+
+	ContactNumber
+
+	GetCustomerDetails
+
+	PrintCustomerDetails
+
+	SearchCustomerById(int Id)
+	{
+
+	Id=C.R
+
+	if(customer.CustomerId==Id)
+	{
+		O/p Name & ContactNumber
+	}
+	}
+
+		====> I/P CustomerId 	O/p Name & ContactNumber
+
+	Program.cs
+
+	switch case
+
+
+	
+	MainMenu:
+	1	====> GetCustomer
+
+		break;
+		goto MainMenu;
+
+	2       =====> PrintCustomer
+
+	3       =====> SearchCustomerById
+
+
+	Customer
+
+	GetCustomer
+	
+	PrintCustomer
+	
+	SearchCustomerById
+
+
+	
+	Method with Parameter
+
+	Method with Return Type
+
+	?????????
+
+
+	UI			====> Registration.html
+		Textbox 
+		RadioButton
+
+	Print.html
+		Html Table ====> Print All CustomerDetails 
+
+	Search.html
+
+		TextBox 103  ====Print Customer Detail===> Html Table 
+
+	Coding File		====> Registration.cs
+
+		Code C# ====> 
+
+	//Method with Parameter	
+
+	public void RegisterCustomer(string name,int Id,long contactNumber)
+	{
+
+	}
+
+	public Customer PrintCustomerDetails()    //Return Type 
+	{
+		return customer;
+	}
+
+	public customer SearchCustomer(int Id)  //Method with Return Type + Parameter 
+	{
+
+		return customer;
+	}
+
+	
+	Array Of Object 
+
+	
+	ARRAYS
+
+	SIMILAR TYPE OF ELEMENTS.
+
+	CONTIGUOUS MEMORY LOCATION
+
+	FIXED IN SIZE ====> ARRAY MUST BE PRE-DEFINED WITH SIZE 
+
+	CAN BE ACCESSED BASED ON INDEX NUMBER
+
+	TYPES
+
+		SINGLE 
+
+	SYNTAX
+	TYPE[] ARRAYNAME=NEW TYPE[SIZE];
+
+		MULTI DIMENSIONAL
+	TYPE[,] ARRAYNAME=NEW TYPE[ROW,COL];
+
+			MATRIX OR TABLE 
+
+		JAGGED ARRAY
+			ARRAY OF ARRAYS 
+
+	DATA TYPES
+
+	BOXING 
+
+		CONVERTING VALUE TYPE TO REFERENCE TYPE 
+		IMPLICIT TYPE CONVERSION
+
+	UNBOXING
+
+		CONVERTING REFERENCE TYPE TO VALUE TYPE 
+		EXPLICIT TYPE CONVERSION
+
+	PROPERTY
+	========
+	INTRODUCED IN C# 2.0 
+	
+	HELPS TO ACHIEVE ENCAPSULATION 
+	RESTRICT USER TO ACCESS PRIVATE FIELDS
+	CONSIST OF PUBLIC GET AND SET METHODS	
+
+	GET ====> EXTRACT VALUE FROM PROPERTY
+
+	SET ====> ASSIGN VALUE TO PROPERTY
+
+	READ ONLY    ====> ONLY GET METHOD
+
+	WRITE ONLY   ====> ONLY SET METHOD 
+
+	BY DEFAULT =====> READ + WRITE ====>GET AND SET METHOD
+
+	C# 3.0 
+
+	AUTOMATIC PROPERTIES  
+
+	--------------------
+
+	LOCAL VARIABLE		V/S 	CLASS OR INSTANCE VARIABLE 
+
+	LOCAL VARIABLE
+	
+		ACCESIBLE ONLY INSIDE PARTICULAR METHOD WHERE IT IS DECLARED
+
+		NO DEFAULT VALUE , MUST BE ASSIGNED BEFORE ANY MANIPULATIONS
+
+	CLASS OR INSTANCE VARIABLE
+
+		DECLARED AT CLASS LEVEL , ACCESIBLE ACROSS METHODS 
+
+		DEFAULT VALUE 
+	
+	CLASS OR INSTANCE VARIABLE	V/S		STATIC VARIABLE 
+
+		CLASS VARIABLE VALUE CHANGES FOR DIFFERENT OBJECTS
+		ACCESSIBLE BY OBJECT
+		DEFAULT VALUE
+
+	EMPID=100; 
+
+	EMP1
+
+	EMP2
+	
+		STATIC VARIABLE VALUE SHARED ACROSS DIFFERENT OBJECTS
+
+		ACCESSIBLE WITHOUT CREATING AN OBJECT
+
+		DEFAULT VALUE
+
+	INHERITANCE	
+	===========
+	
+	2 
+
+		IS A
+
+		HAS A
+
+			BANKACCOUNT
+	
+	SAVINGS		SALARY		CURRENT		DEMAT
+
+	
+	
+
+	BANKACCOUNT		BASE CLASS
+	
+		CLASS FROM WHERE USER ACQUIRE REUSABLE PROPERTIES + METHODS
+
+	DERIVED CLASS
+
+		CLASS WHERE WE USE REUSABLE PROPERTIES FROM OTHER CLASS(BASE CLASS)
+		BASE CLASS PROPERTIES 	+  OWN PROPERTIES 
+
+	CUSTOMERID
+	CUSTOMERNAME
+	BALANCEAMOUNT
+	ACCOUNTNUMBER
+	
+		
+
+	CODE REUSABILITY
+	NO NEED START CODING FROM SCRATCH
+
+	ENHANCEMENT APPLICATION
+
+	RELEASE NEW VERSION OF SOFTWARE OR PRODUCT
+
+	TYPES
+
+		SINGLE 
+		MULTI LEVEL 
+
+	NO MULTIPLE INHERITANCE
+		BC1		BC2	
+		       DC1
+
+	SINGLE CLASS CAN'T USE 2 OR MORE BASE CLASS FEATUES =====> C#
+
+	SHOPPING CART
+
+		CUSTOMER	====> BASE CLASS
+
+	GOLD 		SILVER 		BRONZE 		PLATINUM	===DERIVED CLASS
+
+		GOLD + PLATINUM		====> 4% DISCOUNT ON EVERY PRODUCT PRICE >1000
+
+	
+
+	DISCOUNT CLASS 
+
+	====> SETTING DISCOUNT PERCENTAGE ====> PRODUCT PRICE
+
+
+	GOLD & 	PLATIMUM 	=====> 	USE CUSTOMER 	+ 	DISCOUNT  CLASS FEATURES
+
+	NOT POSSIBLE IN C# 
+	
+	SINGLE CLASS CAN'T USE 2 OR MORE BASE CLASS FEATUES =====> C#
+
+	GOLD & PLATINUM 	====> CUSTOMER ---	BASE CLASS
+				====> IDISCOUNT --- 	INTERFACE  ====> CALCULATE-DISCOUNT()
+
+	POLYMORPHISM
+	============
+
+	METHOD OVERLOADING
+
+		SAME METHOD NAME ....DIFFERENT PARAMETER SIGNATURE
+
+	METHOD OVERRIDING 
+		INHERITANCE 
+
+		RUN TIME 
+
+		IMPLEMENTATION OF INHERITED METHODS FROM BASE CLASS
+		SAME METHOD NAME ...SAME METHOD SIGNATURE ...
+		ONE METHOD ---BASE CLASS
+		OTHER METHOD ---DERIVE CLASS	
+	
+		
+	CAT
+
+		SOUND()
+	DOG 
+
+		SOUND()
+
+	KITCHEN(HYEGENIC)   FRIDGE ... LAUNDRY WM 
+
+	VENTILATION
+
+	BUDGET
+
+	FOOD 
+	
+	SHARING 
+
+	INETERNET 
+
+	DISTANCE + TRANSPORT
+
+	PARKING SPACE 
+
+	RATINGS
+
+		====>
+
+	SEARCH----PG
+
+		BASED DIFFERENT CRITERIA OR FACILITIES
+
+	WEBSITE
+
+	SEARCH(K .. F ..B..D)
+
+	SEARCH(B..D.. I..P)
+
+	SEARCH(B...R...S..I)
+
+	METHOD OVERLOADING
+
+	BANK ACCCOUNT
+
+	CREATE-BANKACCOUNT(ADHHAR,EBILL,AGE,CONTACT)
+
+        CREATE-BANKACCOUNT(VOTER ID,PAN CARD , EBILL,AGE,CONTACT)			
+
+	ADHHAR 		PAN CARD 	VOTER ID 
+
+	CURRENT ADDRESS .... 
+	
+	EBILL 	... RENTAL AGREEMENT ... GBILL
+
+	AGE 
+
+	METHOD OVERLOADING 
+
+	METHOD OVERRIDING
+	-----------------
+
+	INHERITANCE 
+
+	EXAMPLE:
+	--------
+
+		EMPLOYEE		====>BC
+
+	      CALCULATE_SALARY()	-----------> 
+
+	BA	SALES_MAN     HR 	====> DC
+
+	CALCULATE_SALARY()
+
+		CALCULATE_SALARY()	====SM 	-----> 
+
+		SALES_ORDER +  IncentiveAmount ===> 
+
+		4000
+
+		HR
+
+		SALARY 	+  INCENTIVE_AMOUNT ====> PEOPLE_HIRE 
+		
+	CUSTOMER 
+
+	GC		PC
+
+	CALCULATE_DISCOUNT()
+
+	BASE CLASS METHOD OVERRIDED IN DERIVED CLASS WITH 
+	NEW FUNCTIONALITY & IMPLEMENTATION	
+
+	INHERITANCE
+
+	SYNTAX
+		CLASS DERIVED_CLASS_NAME : BASE_CLASS_NAME
+
+		{
+
+		}
+
+		: DERIVED FROM OR INHERITED FROM 
+
+	BASE CLASS METHOD 
+		DECLARE WITH KEYWORD VIRTUAL
+
+	DERIVED CLASS METHOD 
+
+		DECLARE WITH KEYWORD OVERRIDE
+
+	VIRTUAL 	====> 
+
+	EMPLOYEE	====> BASE CLASS
+
+	SALESMAN	====> DERIVED CLASS
+
+	
+
+	CALCULATE_SALARY()
+
+		====> 
+
+	
+	DERIVED CLASS CONTAINS BASE CLASS MEMBERS(PROPERTIES+METHODS) AND
+	ITS OWN MEMBERS(PROPERTIES + METHODS)
+
+	INHERITANCE 
+
+		CREATE OBJECT FOR DERIVED CLASS(SALES_MAN) ====> IT CAN ACCESS
+		BOTH BASE CLASS (EMPLOYEE) + SALES MAN PROPERTIES
+
+
+	CUSTOMER
+			====> PROPERTIES
+	CUSTOMERID 
+	CUSTOMERNAME
+	PAYMENT_AMOUNT
+	CONTACT_NUMBER
+	EMAILID
+
+	SWITCH_CASE 
+
+		1
+			REGISTER_CUSTOMERS()
+		2
+			PRINT_CUSTOMERS()
+		3
+			SEARCH	====> ID
+
+		4
+			SEARCH  ====> EMAILID 
+
+		5       UPDATE  ====> BY CUSTOMERID 
+	
+	CONSTRUCTOR
+	===========
+	
+		USED FOR OBJECT CREATION AND INITIALIZATION 
+		OVERLOADED
+		SIMILAR TO METHOD WITH NO RETURN TYPE 
+		IT GETS AUTOMATICALLY INVOKED WHEN WE CREATE INSTANCE OF A CLASS
+
+		HAVING SAME NAME SIMILAR TO CLASS 
+
+		IT IS USED CLASS MEMBERS WITH DEFAULT VALUES
+
+		EVERY CLASS MUST HAVE ATLEAST ONE CONSTRUTOR
+
+		DEFAULT CONSTRUCTOR CREATED BY COMPILER 
+
+		DEFAULT CONSTRUCTOR		====> NO ARGUMENTS
+
+		PARAMETERIZED CONSTRUCTOR	====> WITH ARGUMENTS
+
+			WHEN WE CREATE PARAMETERIZED CONSTRUCTOR, DEFAULT CONSTRUCTOR
+		WILL NOT INVOKED OR CREATED
+			====> CAN'T CREATE AN OBJECT FOR CLASS 
+			====> EXPLICITLY CREATE DEFAULT CONSTRUCTOR
+
+		STATIC CONSTRUCTOR
+				
+		USED TO INNITIALIZE STATIC DATA MEMBERS
+
+		NO PARAMETERS   ----- CAN'T BE OVERLOADED ---
+
+		IT IS INVOKED BEFORE CREATING ANY OBJECTS 
+		
+		SINGLETONE DESIGN PATTERN
+		=========================
+		IT MAKES USER TO CRATE ONLY ONE INSTANCE OF CLASS
+		??????
+
+		PRIVATE CONSTRUCTOR 
+		
+		PRIVATE CONSTRUCTOR 
+		===================
+		RESTRICT USER TO CREATE MORE THAN ONE INSTANCE OF CLASS
+		USE PRIVATE CONSTRUCTOR
+
+		STATIC CONSTRUCTOR 	V/S 	SINGLETONE DESIGN PATTERN
+
+		DESIGN PATTERN
+			=====>
+		IF WE REPEATEDLY FACE PROBLEM IN OUR APPLICATION OR SOFTWARE 
+			====> USE DESIGN PATTERN TO SOLVE PROBLEM
+
+		DESIGN PRINIPLES
+		SOLID 
+		
+		CI CD PIPELINE 
+
+		DEVOPS 
+		CONTINUOUS INTEGRATION  V/S CONTINUOUS DELIVERY 
+	
+
+	
+
+	ABSTRACT CLASS
+		CONSIST OF ABSTRACT METHODS + VIRTUAL METHODS
+		IT ACTING AS A BASE CLASS
+		VARIABLES
+		       PRIVATE , PUBLIC , PROTECTED 
+
+		ABSTRACT METHODS
+		----------------
+		METHOD WITH ONLY DECLARATION , NO IMPLEMENTATION
+
+		PUBLIC ABSTRACT VOID CHECK_BALANCE();  ====> DECLARATION
+		??????
+
+		ABSTRACT METHOD IMPLEMENTATION DONE BY RESPECTIVE DERIVED CLASS
+		WHERE IT IS NEEDED
+
+		??????
+
+		FLEXIBILITY FOR DERIVED CLASS TO PROVIDE ITS OWN IMPLEMENTATION.
+
+		VIRTUAL METHOD
+		==============
+		METHOD WITH IMPLEMENTATION
+
+		?????
+
+		DEFAULT IMPLEMENTATION WHICH IS APPLICABLE ALL DERIVED CLASSES.
+
+		EMPLOYEE
+
+		FIRSTNAME	LASTNAME 
+
+		NAME 	====> FIRSTNAME + LASTNAME ====> VIRTUAL METHOD
+
+		LASTNAME        FIRSTNAME 
+
+		FIRSTNAME  MIDDLENAME  LASTNAME 
+
+		HR	ME	SM	BA	IT 	SUPPORT
+
+		OFFICE 
+
+	CAN'T CREATE INSTANCE OF ABSTRACT CLASS
+
+	CLASS 		ABSTRACT CLASS
+
+	CLASS CAN USE ONLY ONE ABSTRACT CLASS FEATURES 
+
+	AC1	AC2
+
+	  DC ----> AC1
+				----> NO MULTIPLE INHERITANCE 
+	  DC ----> AC2
+
+	INTERFACE
+	=========
+	
+	METHOD 
+		====> BY DEFAULT PUBLIC & ABSTRACT 
+			
+		====> ONLY METHOD DECLARATION
+
+	VARIABLES 
+
+		====> NO VARIABLES ....
+		====> PROPERTIES 
+
+	CAN'T CREATE AN INSTANCE 
+
+	MULTIPLE INHERITANCE
+
+	CLASS CAN USE 2 OR MORE INTERFACE METHODS
+
+
+	1. INHERITANCE
+		
+		CUSTOMER ---AC ---OPTIONAL 
+
+		====> GC	BRC
+
+		CREATE ARRAY ===> GC OR BRC
+
+	2. INTERFACE ====> 
+
+	3. CUSTOMERID ----AUTO INCREMENT NUMBER ---CONSTRUCTOR 
+
+	4. DELETE CUSTOMER BY CUSTOMER_ID
+
+	I1		I2
+
+		DC ---> I1, I2
+
+	CLASS CAN USE I1 + I2 
+
+	CLASS CAN USE AC1 + I1 , I2 ....
+
+	CLASS CAN USE ONLY ONE ABSTRCT CLASS --A1 
+
+	CLASS MUST USE OR IMPLEMENT ALL INTERFACE METHODS
+
+	ISHOP
+
+		CALCULATE_DISCOUNT();
+
+		CHECK_PROFIT();
+
+	GOLD_CUSTOMER
+		CALCULATE_DISCOUNT();
+		NO NEED CHECK_PROFIT();
+
+		NOT POSSIBLE 
+
+	IT IS CONTRACT WHICH ENFORCES A CLASS USE CERTAIN DATA MEMBERS
+
+	ADVANTAGE OR DISADVANTAGE ????
+
+	100% ABSTRACTION ====> SHOWS NECESSARY DETAILS TO END USER
+
+	ENCAPSULATION    ====> HIDING IMPLEMENTATION DETAILS FROM END USER
+
+	SHOPPING
+
+		PAYMENT PAGE
+		        ====> 
+			ONLY PARTICULAR BANK CARDS ---> 
+			WHO GIVE CASHBACK OR DISCOUNT CUSTOMER
+
+		IDISCOUNT
+			CALCULATE_DISCOUNT();
+	
+		HDFC 
+			===> IDISCOUNT INTERFACE ===> IMPLEMENT CALCULATE_DISCOUNT()
+		ICICI
+
+		DECIDE DISCOUNT PERCENTAGE ??? FLEXIBILITY TO PROVIDE OWN IMPLEMENTATION
+		
+	WHAT ???
+	WHY OR WHEN ???
+	HOW ????
+	
+	SHOP APPLICATION
+
+	CUSTOMER 		----> GOLD 	&	SILVER
+		=====> 
+	GOLD CUSTOMER		
+
+	1.  DISCOUNT 	====> 5%
+		
+			IDISCOUNT ----> CALCULATE_DISCOUNT() 
+
+	2.  CUSTOMERNAME ===> FIRSTNAME AND LASTNAME 
+			AC ----> GETCUSTOMERNAME() ---VIRTUAL 
+
+									
+
+			INTERFACE	====> MANDATORY DISCOUNT TO GIVEN TO GC
+
+			ABSTRACT CLASS  ====> CUSTOMER ENTER FIRSTNAME & LASTNAME 
+
+					====> CUSTOMER FULL NAME 
+
+	3. GETBILL()
+
+		FIND FINAL BILL AMOUNT -BASED DISCOUNT FROM CALCULATE_DISCOUNT
+
+		CALCULATTION GET FINAL BILL 
+
+	SEALED CLASS
+
+		KEYWORD SEALED 
+		CAN'T INHERTITED
+		CAN'T USED AS BASE CLASS --SINCE NO INHERITANCE
+
+	SEALED METHOD 
+
+		METHOD AS SEALED METHOD , IT CAN'T BE FURTHER OVERRIDEN
+
+		APPLIED FOR DERIVED CLASS METHOD , WHICH AVOIDS OVERRIDE AGAIN 
+		IN SUBSEQUENT DERIVED CLASS
+
+		    Employee
+			sealed virtual void GetBenefits()  NOOOO
+	
+		    
+		    SalesMan
+
+		    sealed virtual void GetBenefits() Allowance +  WellBeingSub
+		     
+		    VendorPayroll
+
+				Allowance +  WellBeingSub
+
+				Call Or Override GetBenefits() method 
+
+	STEP 1  --DESIGN 
+
+
+	CUSTOMER 
+			======> ONLY PROPERTIES RELATED TO CUSTOMER DETAILS
+
+	GOLDCUSTOMER 	====> DC	 
+
+	PRODUCT 
+
+		PRODUCTNAME ...PRODUCTPRICE ... PDISCOUNTRATE
+
+	ADMIN		IS A RELATIONSHIP 
+
+	
+	IMPLEMENTATION 
+
+	GETBILL () ----> FIND BILL_AMOUNT FOR A PARTICULAR GOLD_CUSTOMER 
+
+	PRODUCTNAME ...PRODUCTPRICE ... PDISCOUNTRATE  ====> ACCESSED BY GC
+
+	
+        GoldCustomerObj.PropertyName 
+
+	GoldCustomer needs to access Product Properties ?????
+
+	Solution :
+
+		Create Product Object in GC 
+		Where ???
+	GoldCustomer Constructor ====> Product Object
+
+	When Initialize GC Object , it can access Customer Properties + Product Properties 
+
+		Nesting Object or Nesting Property
+
+	GoldCustomerObj.ProductName  wrong 
+
+	Partial Class 
+
+A partial class splits the definition of a class over two or more source files.
+
+Multiple developers can simultaneously write code for the class
+
+All parts of a partial class should be in the same namespace.
+
+The partial types must have the same accessibility.
+
+The partial classes will be merged into a single class during 
+
+compilation.
+
+It is easier to add new code without editing the original source file
+
+Partial methods helps us to define a method definition in one of the
+physical files and we can implement that method in the other
+physical files
+
+It separate User Interface design code and business logic code so 
+that it is easy to read and understand
+
+It adds code to the class without having to recreate the source file , 
+when working with automatically generated source.
+
+
+
+	
+	PUBLIC 
+
+		UNIVERSAL 
+
+		ANYWHERE IN SAME PROJECT (NAMESPACE) OR DIFFERENT PROJECT(NAMESPACE) 	
+
+		    
+		
+		    
+	PROTECTED
+
+		SAME CLASS 	+	INHERITED CLASS (DC)
+	INHERITANCE
+	INTERFACE 	
+	INTERFACE		&&		ABSTRACT CLASS	
+
+		
+	
+	STRUCT ..ENUM ...
+
+	STATIC CLASS ..CONSTRUCTOR 
+
+	JAGGED ARRAY
+
+	EXCEPTION HANDLING 
+	==================
+
+	PROGRM LOGIC WRONG 
+
+	WRONG USER INPUT 
+
+	STRING NAME=NULL;
+
+	IF(NAME.LENGTH)  WRONG 
+
+	NUMBER1/NUMBER2  ---->100/0;	===> 
+
+	D:IMAGE:IMAGE1.PNG             ====> ACCESS FOLDER OR IMAGE NOT PRESENT
+
+	APPLICATION  	SHOP
+
+	DB SERVER
+
+		====> CLIENT SERVER 	====> IP ...    CRASHED 
+
+	SOURCE CODE ----> PATH .....
+	
+	EXCEPTION ????
+
+
+	WHAT IMPACT ????
+
+	SOLVE EXCEPTION ????
+
+	HOW TO HANDLE 
+
+		SYSTEM ====> NAMESPACE 
+
+		SYSTEM.EXCEPTION CLASS 
+
+		PRE DEFINED METHODS && PROPERTIES ====> HANDLE EXCEPTION 
+
+	1. TRY
+					
+	2. CATCH
+						
+	3. FINALLY 
+						
+	4. THROW 
+
+          Syantax:
+	
+		try
+		{
+
+			//PROGRAM LOGIC   
+			CORRECT --- TRY BLOCK EXECUTES , SKIP CATCH BLOCK 
+			WRONG   --- TRY BLOCK THROWS OR RAISE AN EXCEPTION 
+		}
+		catch(Exception_Type ExceptionObject)  ExceptionObject----User Defined 
+		{				       Exception_Type --Predefined
+  						       exception class
+		   //HANDLE AN EXCEPTION ---EXCEPTION DETAILS(PROJECT_NAME , 
+					    METHOD_NAME, LINE MESSAGE) TO USER
+		}
+		finally
+		{
+		   //OPTIONAL, EXCECUTES ALWAYS (EXCEPTION OCCURS OR NOT)
+		   //CLEANING UP TASKS ---CLOSING FILE , DB CONNECTION CLOSE 
+		}
+	THROW 
+	=====
+	1. CUSTOM EXCEPTION
+		??????
+	2. RE-THROW AN EXCEPTION NEXT LEVEL
+
+		
+	SHOP
+
+	     LOGIN 	ORDER 	    		PAYMENT 
+
+	                 PURCHASE 		PAY BILL   ===> 3RD PARTY PAYMENT GATEWAY
+
+							   PROBLEM ====> CUSTOMER CARE EXE..
+
+				
+
+		
+	MULTIPLE CATCH POSSIBLE 
+
+	EXCEPTION HIERARCHY 	
+	Catch(IndexOutOfRangeException ex1)
+	{
+
+	}
+
+
+
+	Catch(Exception ex)
+	{
+
+
+	}
+
+	
+	Multiple Catch Blocks ====> 1 catch block executes at a time 
+
+	WHICH CATCH BLOCK EXECUTES ????
+
+	
+
+		EXCEPTION 			----> BASE CLASS 
+
+
+	IndexOutOfRangeException
+	NullReferenceException
+	InvalidOperation
+	FormatException
+	ArgumentException
+	FileNotFoundException
+	StackOverFlowException
+
+	OutOfMemoryException
+
+	
+
+	ExceptionDemo
+
+
+	CUSTOM EXCEPTION
+
+	-VE 
+
+		ID<0
+
+	ProductNotFoundException ====> Create Custom Exception Class
+
+	ExceptionMessage : " Searching For Wrong Product ..Please Check";
+
+	1. Create class ProductNotFoundException , inherited from Exception Class
+
+	2. Create User Defined Property ExceptionMessage with proper Message 
+
+	3. Use throw keyword inside try block Call ProductNotFoundException and 
+		Print User Defined 
+		ExceptionMessage property 
+
+	 
+	throw new ProductNotFoundException();
+
+	C#
+	
+
+	GROUP OF ELEMENTS OR OBJECTS	----> STORE AND RETRIEVE DATA 
+					BASED ON CERTAIN STRUCTURE
+
+	====> 
+		DATA STRUCTURE
+			====> ARRAYS 		
+			====> 	COLLECTION CLASSES 
+
+	A. SIMILAR DATA ELEMENTS (SAME DATA TYPE)
+
+	B. BEFORE STORE ANY ELEMENTS ----> DEFINE SIZE 
+
+		---> 10 	----> ONLY 10 ELEMENTS
+
+	C. NO PRE-DEFINED METHODS ---> ARRAY ELEMENTS MANIPULATIONS 
+
+				 ----> STORE AND RETRIVE ARRAY ELEMENTS 
+
+				REVERSE , SEARCH , SORT, DELETE , REPLACE
+
+				INSERT 
+
+	NON GENERIC COLLECTIONS 	& 	GENERIC COLLECTIONS
+
+		SYSTEM.COLLECTIONS
+		SYSTEM.COLLECTIONS.GENERIC
+
+			====> PRE-DEFINED CLASSES + METHODS + PROPERTIES + INTERFACES 
+
+	COLLECTIONS
+
+		STORE HETEROGENEOUS TYPE OF ELEMENTS
+		NO DEFINE ANY SIZE BEFORE STORE ELEMENTS ----DYNAMIC
+		PRE-DEFINED METHODS ---> STORE , RETRIEVE , MANIPULATIONS
+		PROPER STRUCTURE TO STORE ELEMENTS 
+
+	NON GENERIC COLLECTION			GENERIC COLLECTION
+	SYSTEM.COLLECTIONS			SYSTEM.COLLECTIONS.GENERIC
+						
+	ARRAYLIST				LIST<T>
+	HASHTABLE				DICTIONARY				
+	SORTEDLIST				SORTEDDICTIONARY
+	STACK 					STACK<T>
+	QUEUE					QUEUE<T>
+
+	INLINE FUNCTIONS 	OR 	FUNCTION TEMPLATES -GENERIC METHODS
+					GENERIC CLASS
+					GENERIC INTERFACES 
+
+	ARRAYLIST			LIST
+
+	HASHTABLE &  SORTEDLIST
+
+		STORE ELEMENTS KEY/VALUE PAIRS
+
+	HASHTABLE 	====> FASTER RETRIEVAL OF DATA
+
+			RANDOM ORDER
+
+	SORTEDLIST 	SORT ALL VALUES BASED ON KEYS ---> LATER PRINT VALUES 
+
+	
+
+	IPL CRICKET TEAM NAMES
+
+	RCB		CRICKET PLAYER ---> BANGALORE RCB 
+	CSK
+	KKR
+	MI
+	GT
+	DD
+	LSG
+	SRH
+	RR
+	KXIP
+
+	
+	
+
+	IRCTC
+
+	NDLS
+
+	BBSR
+
+
+	SBC
+
+	MAS
+
+		
+
+		
+
+	
+
+	
+					
+
+	
+
+	
+
+		
+	
+
+		
+			
+	Employee		Product			====> CLASS
+
+	EmpID			ProductId
+
+	EmpName			ProductName
+
+	Salary			Payment
+
+
+	EmployeeObj		ProductObj
+
+	EmpArray		ProductArray
+
+	========> 
+
+	Collection 
+
+	empList	   ===> ArrayList ====> ONLY EMP DETAILS 		+  Product
+
+	productList
+
+
+
+	empList.Add(Employee);
+	empList.Add(product);
+
+	????
+
+			???????
+	
+
+	ONLY SPECIFIC VALUES 
+
+	GENERICS COLLECTIONS
+
+	List<Employee> empList=new List<Employee>();
+
+	Accept only Employee Details 
+
+	COMPILE TIME TYPE CHECKING 	====> TYPE SAFE
+
+			EMPLOYEE	TABLE
+
+		EMPID 	EMPNAME	  SALARY  EMAILID
+	
+		101	E1	   1000	   E11
+
+		102     E2	    2000   E22
+
+		
+
+		UI 	===> PRINTPAGE.HTML
+
+		1. PRINT ===> EMPNAMES 
+
+			SELECT EMPNAME FROM EMPLOYEE
+
+		2. PRINT ====> ALL EMPLOYEE DETAILS
+
+		   SELECT * FROM EMPLOYEE
+
+		
+	DAL
+
+		public ArrayList PrintEmpNames()
+		{
+
+		}
+
+		public List<Employee> PrintEmpDetails()
+		{
+
+		}
+
+	BAL
+
+	 VAR KEYWORD 
+	 =============
+
+	 IMPLICTLY TYPED LOCAL VARIABLE 
+
+	 int numbers;
+	 double salary;
+
+  	 string name;
+
+	 var numbers=100;
+	 var salary=25000.60;		=====> LOCAL VARIABLE 
+	 var name="Santhosh";
+
+	Arrays 
+        Object 
+
+	var int[]=new int[10];
+
+	WHERE TO USE ?
+
+	LOCAL VARIABLES 
+	FOREACH LOOP
+	Type Conversion
+	LINQ query 
+
+	Where not Use?
+
+	Class Variables
+	Can't used as method parameter
+	Can't used as Return type
+	Can't used declare Property
+
+	Advantage?
+
+	Avoids Explicit Type Conversion
+	var result=GetCustomerDetails();    ---> int 
+					    ---> string 
+					    ---> Customer Array
+
+	int number=GetCustomerDetails()
+	string name=GetCustomerDetails()
+	Customer[] CustomerArray=GetCustomerDetails()
+
+
+
+		VAR
+
+	var result=GetCustomerDetails(); 
+
+        NULLABLE TYPE
+	=============
+
+	IT USED TO ASSIGN NULL VALUE TO VALUE TYPES.
+	EXPLICITLY STORE NULL VALUES
+
+	???????
+
+	PROJECT_CODE --COLUMN  --INT
+
+	IF ALLOCATED PROJECT ---> 10101
+
+	NULL
+
+
+	int ProjectCode=null;   NOOOO	
+
+	How to Store?????
+
+	SYNTAX:
+
+	DataType? variableName=null;
+ 
+	DataType ---Value Type
+
+	int? ProjectCode=null;
+
+	
+        public int? OrderId=null;
+	
+	INT ---0
+	DOUBLE 
+	CHAR
+
+	HASHTABLE 			SORTEDLIST
+
+	KEY/VALUE
+
+	KEYS	VALUES			SORTING ===> BEFORE PRINT ---KEYS
+
+	BR	BANGALORE		ALPHA	OR NUMERIC 
+
+	CHN	CHENNAI			KEYS CAN'T BE DUPLICATED 
+
+	HYD	HYDERABD		
+
+	DEL	DELHI
+
+	RANDOM	ORDER			SORTED ORDER	===>SORTEDLIST		
+	
+	
+
+	ARRAYS 
+
+	5 ELEMENTS	===> CITY-NAMES 
+
+	0	BLR
+
+	1	CHN
+
+	2	HYD
+
+	3	KKR
+
+	4	DEL
+
+		
+	ICOMPARER()			===>COMPARE() OR COMPARETO()
+
+		COMPARES 2 OBJECTS 
+
+	EMP1
+			101 	EMP1	BLR	12000
+	EMP2
+			102	EMP2	HYD	70000
+	EMP3
+
+			103	EMP3   CHN 	50000
+
+	
+	PRINT 	====>	EMP DETAILS BY LOCATION ---SORT
+
+		
+	DELEGATES
+		
+		REFERENCE TYPE	====> HOLDS ADDRESS OF METHODS
+
+		====> EVENT HANDLING .....
+		DELEGATES + EVENTS 
+		CALL METHODS WHICH INVOCATION DECIDED AT RUNTIME 
+		
+
+		DELEGATE BIND METHODS 	+	EVENTS 
+		(WHICH METHOD TO BE INVOKED WHEN PARTICULAR EVENT OCCURS)
+
+		m1
+
+		m2
+
+		m3
+
+		DELEGATE INVOKES PARTICULAR METHOD BASED ON METHOD SIGNATURE
+
+			DELEGATE SIGNATURE MATCH WITH METHOD SIGNATURE
+
+		TYPE SAFE 
+
+		PUBLIC VOID SAVE()
+
+			PUBLIC VOID UPDATE()
+
+				VOID DELETE(INT ID)
+
+		SINGLE DELEGATE CAN INVOKE MULTIPLE METHODS
+
+		?????? IDEAL TO CREATE DELEGATE CALL SAVE + UPDATE 
+
+		2 METHDOS 
+
+			====> SAVE DETAILE
+						  ====> SEQUENTIALLY CALLING 2 METHODS
+			=====> PRINT DETAILS
+		
+		CUSTOM CONTROL OR CUSTOM COMPONENT
+						====> DELEGATE + EVENTS 
+		CREATE OWN EVENTS 
+				
+		EVENTS 
+
+			NOTIFICATION TO END USER ABOUT PARTICULAR FUNCTIONLITY
+
+		LOAN 	===> LOAN APPROVED NOTIFICATION USER
+
+		
+
+		REGISTRATION FOR NAUKRI , MONSTERINDIA
+
+			====>
+
+				ENTER BASIC DETAILS ====> REGISTER BUTTON
+
+				4 METHODS ====> SINGLE DELEGATE ---EVENT
+					4 NOTIFICATION USER
+
+				NOTIFICATION ===> 
+					1 ====>  SEND EMAIL TO EMAIL-ID
+
+					2 ====>  SEND TEXT SMS TO MOBILE
+
+					3 ====>  WHATSAPP TO THEIR WHATSAPP
+		
+					4 ====> TWITTER .....
+	TYPES
+	-----
+		USER DEFINED DELEGATE 
+
+		A. SINGLE CAST DELEGEATE	---INVOKE SINGLE METHOD
+		B. MULTI CAST DELEGATE		--- INVOKE MORE THAN METHOD
+		C. ANONYMOUS DELEGATE		---WORK WITH ANONYMOUS METHODS
+						---INVOKE 
+
+			ANONYMOUS METHOD
+				METHOD WITHOUT NAME 
+
+	PRE-DEFINED OR GENERIC DELEGATES
+		A. FUNC<T>
+		B. ACTION<T>
+		C. PREDICATE 
+
+	
+
+		SYNTAX
+		======
+	3 STEPS
+
+		1. Declare delegate
+		   <Access-Specifier> <Delegate-Keyword> <Return-Type><Delegate-Name>(<Parameters>);
+			
+
+		2. Instantiate delegate
+		<Delegate-Name> <Delegate-ObjectName>=new <Delegate-Name>(Method_Name);
+
+		3. Invoke delegate
+
+			<Delegate-ObjectName>(<Paramaters-Input>); 
+
+		
+	DELEGATE 
+
+	EVENT
+
+	PUBLISHER -SUBSRIBER MODEL
+
+		STEPS
+	1. CREATE AN EVENT WITH DELEGATE
+
+		<Access-Specifier> event <Delegate_Name> <EventName>;
+
+	2. RAISE OR FIRE AN EVENT
+
+		<Event_Name>();
+
+	3. CREATE AN EVENTHANDLER WHICH SHOWS NOTIFICATION(METHOD) USER
+
+	4. BIND DELEGATE WITH EVENT 
+						====> SUBSCRIBER(CLIENT)
+	//Event_Name+=new DelegateName(Nofification_MethodName);
+	
+	5. INVOKE EVENT OR DLEEGTE OBJECT 
+
+	Employee emp=new Employee()
+
+	1. Type t = emp.GetType();	
+
+	2. Type t =typeof(Employee);
+
+	NAMESPACE
+
+		SYSTEM.REFLECTION
+
+		PRE-DEFINED MERHODS	+ 	PROPERTIES
+
+		
+			
+	LINQ
+
+	ORM(OBJECT RELATIONAL MAPPING) FRAMEWORK 
+	EF(ENTITY FRAMEWORK)		EF CORE(ENTITY FRAMEWORK CORE)(.NET CORE)
+
+	2 WAYS LINQ QUERIES
+
+	1. QUERY EXPRESSION SYNTAX
+
+		FROM VARIABLE_NAME IN SOURCE_NAME WHERE CONDITION
+		ORDER BY CONDITION SELECT VARIABLE_NAME;
+
+		 VARIABLE_NAME ---USER-DEFINED 
+
+		IN , WHERE,ORDER BY, SELECT --KEYWORD	
+
+		CUSTOMER_TABLE OR CUSTOMER_LIST
+
+		SELECT * FROM CUSTOMER_TABLE WHERE CUSTOMER_ID=....
+
+	2. METHOD INVOCATION SYNTAX
+
+		LAMBDA EXPRESSION
+
+	ANONYMOUS TYPE
+
+		IT'S A TYPE WITHOUT NAME
+	
+	ANONYMOUS METHOD
+
+		METHOD WITHOUT ANY NAME 
+
+	LAMBDA EXPRESSION 
+
+		LAMBDA OPERATOR
+	SYNTAX
+		
+		(<INPUT PARAMETERS>)=>EXPRESSIONS OR STATEMENTS
+
+		()=>EXPRESSIONS
+
+	ANONYMUS METHOD
+
+	   delegate(<Input Parameter>){
+			//Expressions Or Statements
+			
+		   };
+	
+	USED WITH LINQ EXTENSION METHODS
+
+	EF ...MVC 
+	
+	  delegate(Products product) 
+            {
+                return product.ProductPrice > 10000;  //bool value 
+
+            }
+
+
+	GROUP BY SQL
+
+		PRINT ONLY THOSE COLUMN WHICH ARE AGGREGATE FUNCTION OR PART OF KEY NAME
+
+		LOCATION + AGGREGATE-FUNCTION
+	
+	
+
+	
+				
+	
+
+		
+
+		
+
+		
+
+	
+
+
+		STORED PROCEDURES
+		=================
+
+	IT'S SET OF PRE-COMPILED SQL STATEMENTS STORED AS AN OBJECT.
+
+	EXECUTION PLAN	---DB ENGINE 
+
+	Stored procedure is a set of one or more precompiled SQL statements that are 
+	stored together as an object in database.     
+
+	Maximum number of parameters passed to stored procedure 2100.
+
+	The maximum size of a stored procedure is 128 MB.
+
+	We can create as many local variables in a stored procedure as the 
+	memory can accommodate.
+
+	Stored procedure execution is faster because execution plan is already 	
+	stored in sys.procedures system defined view.
+		  --------------
+
+	It improves database Performance, SQL statements in stored procedures are 
+	compiled and optimized for first time they are executed.
+
+	It is stored as a database object, so it can be called from any machine 
+	which is connected to server.
+
+	It provides Security by restricting users to access database table on client side. 
+
+	It reduces network traffic, it consists of more number of SQL statements 
+	which can be executed as single statement and reduces the number 
+	of calls from client to server.
+
+	SYNTAX
+	======
+
+	CREATE PROCEDURE PROCEDURE_NAME 
+	(
+		@PROC PARAMETERNAME1 DATA_TYPE ,@PROC PARAMETERNAME2 DATA_TYPE ........
+	)
+	AS
+		VARIABLE DECLARATION   ---(DECLARE)
+	BEGIN
+		/* SQL STATEMENTS WITH PROCEDURE -PARAMETERS */
+		I I OR I U ...D ....S 
+	END
+
+	PROC PARAMETERS 
+		----2 TYPES 
+	INPUT 
+	OUTPUT
+
+		BY DEFAULT ----> PROC PARAMETERS ---INPUT 
+
+	OUTPUT ----> PRODUCTID INPUT 	====> GET NAME AND PRICE
+
+		    RETURN NAME & PRICE ----(OUTPUT)	
+		    ----> VARIABLES ----RETURN 
+	=================================================
+
+	PROC	----> 4 PARAMETERS 
+
+	EXECUTE PROCEDURE_NAME VAL1 VAL2 VAL3 VAL4 	
+
+	EXEC PROCEDURE_NAME 
+
+	
+	ASP.NET MVC
+	===========
+
+	WEB TECHNOLOGY USED FOR DEVELOPING WEB BASED APPLICATIONS BASED 
+	ON MVC ARCHITECTURE
+
+			MVC (MODEL VIEW CONTROLLER) 
+	        	---------------------------
+
+	MODEL 		====> 	APPLICATION DATA ... DOMAIN MODEL OR ..OBJECT DATA 
+			====> 	PRODUCT , ORDER , CUSTOMER , USERS 
+			====>   BUSINESS LOGIC
+
+	VIEW		====>	UI -USER INTERFACE ----USER INTERACT WITH WEB-SITE
+			====>   UI LOGIC
+
+	CONTROLLER	=====>	ACT AS INTERMEDIATE BETWEEN MODEL 	+ 	VIEW
+			=====> USER INTERACTION ----INPUT LOGIC 
+			=====> USER REQUEST - RESPONSE LIFE CYCLE (HTTPREQUEST ..
+								   HTTPRESPONSE)			=====> 
+			
+	VALID URL ====> 
+
+		URL PATTERN  ====> DEFAULT URL PATTERN ----> ROUTING TABLE 
+
+	====> VALID URL 
+		=====> MODEL DATA 
+		
+	EF (ENTITY FRAMEWORK OR EF-CORE )	====>PROJECT ====TRAINING 
+
+	DATA ACCESS TECH
+	 
+			
+				
+	amazon.in
+
+	
+	
+	
+	
+
+	
+		
+	
+
+	
+						
+	
+
+
+
+
+
+
+				
+
+		
+
+				
+
+		
+
+		
+
+	
+
+	
+	
+	
+	
+	
+        
+
+	
+
+	
+
+		
+	
+	
+
+	
+
+			
+
+		
+	
+
+	
+
+	
+	 
+
+	
+
+	
+
+
+
+
+
+
+
+
+
+	
+ 
+
+
+			
+
+
+
+
+
+
+
+
+
+
+	
+
+
+	
+
+
+
+
+
+
+
+		
+
+	
+
+			
+
+	
+	
+
+
+
+	
+
+	
+	
